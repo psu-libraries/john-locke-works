@@ -1,0 +1,225 @@
+
+
+BODY { 
+	background-image: url(images/paper2.jpg); 
+	color: #000000; 
+	font-family: Garamond, Georgia, Times, Serif;
+	}
+
+/* STYLES FOR HYPERLINKS */
+
+a:link {
+	color: #CC0000; 
+	text-decoration: none;
+	}
+
+a:visited {
+	color: #FF0000;
+	text-decoration: none; 
+	}
+
+a:active {
+	color: #CC0000;
+	text-decoration: underline; 
+	}
+
+a:hover {
+	color: #CC0000;
+	text-decoration: underline; 
+	}
+
+a.nav:link	{
+	color: #FFFFFF;
+	font-size: 16pt;
+	text-decoration: none; 
+	}
+
+a.nav:visited	{
+	color: #FFFFFF;
+	font-size: 16pt;
+	text-decoration: none; 
+}
+
+a.nav:hover	{
+	font-size: 18pt; 
+	text-decoration: none; 
+	}
+
+/* STYLES FOR TABLE ELEMENTS */
+
+TABLE.frame { 
+	margin-bottom: 1em;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 1em;
+	width: 750px;
+	table-layout: fixed; 
+	}
+
+TD.main {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	width: 745px; 
+	}
+
+TD.left {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%; 
+	padding-top: 10pt; 
+	padding-left: 0px; 
+	padding-right: 0px; 
+	vertical-align: top; 
+	width: 370px; 
+	}
+
+TD.right {
+	border-left: 3px solid #990000; 
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	padding-bottom: 15px; 
+	padding-left: 15px; 
+	padding-right: 15px; 
+	vertical-align: top; 
+	width: 370px; 
+	}
+
+/* STYLES FOR HEADINGS */
+
+H1.title {
+	color: #CC0000; 
+	font-family: Garamond, Georgia, Times, Serif;
+	font-size: 325%; 
+	font-style: italic; 
+	font-weight: normal; 
+	letter-spacing: 0.05em; 
+	margin-bottom: 55px; 
+	margin-left: 20px; 
+	margin-top: 55px; 
+	padding-bottom: 0px; 
+	}
+
+H2.bib {
+	background-color: #663300; 
+	color: #FFFFFF;
+	font-family: Garamond, Georgia, Times, Serif;
+	font-style: italic; 
+	font-weight: bold; 
+	letter-spacing: 0.05em; 
+	margin: 0px; 
+	margin-left: 25px;
+	padding-top: 6pt;
+	text-align: center;
+	height: 35px; 
+	width: 325px;
+	}
+
+H2.chron {
+	background-color: #CC6600; 
+	color: #FFFFFF;
+	font-family: Garamond, Georgia, Times, Serif;
+	font-style: italic; 
+	font-weight: bold; 
+	letter-spacing: 0.05em; 
+	margin: 0px; 
+	margin-left: 25px;
+	padding-top: 6pt;
+	text-align: center;
+	height: 35px; 
+	width: 325px;
+	}
+
+H2.mss {
+	background-color: #006600; 
+	color: #FFFFFF;
+	font-family: Garamond, Georgia, Times, Serif;
+	font-style: italic; 
+	font-weight: bold; 
+	letter-spacing: 0.05em; 
+	margin: 0px; 
+	margin-left: 25px;
+	padding-top: 6pt;
+	text-align: center;
+	height: 35px; 
+	width: 325px;
+	}
+
+H2.right {
+	font-family: Garamond, Georgia, Times, Serif;
+	font-size: 150%; 
+	font-style: normal; 
+	font-weight: bold; 
+	letter-spacing: 0.05em; 
+	margin-bottom: 0px; 
+	margin-left: 0px; 
+	margin-top: 10pt; 
+	padding-bottom: 0px; 
+	}
+
+/* STYLES FOR DIVISIONS */
+
+DIV.footer {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%; 
+	margin-left: 25px; 
+	margin-top: 12pt; 
+	}
+
+/* STYLES FOR PARAGRAPHS */
+
+P.pflush {
+	font-size: 110%;
+	line-height: 125%; 
+	margin-bottom: 0px; 
+	margin-left: 50px; 
+	margin-right: 50px; 
+	margin-top: 10pt;	
+	text-align: justify; 
+	}
+
+P.pindent {
+	font-size: 110%;
+	line-height: 125%; 
+	margin-bottom: 0px; 
+	margin-left: 50px; 
+	margin-right: 50px; 
+	margin-top: 0px; 
+	text-align: justify; 
+	text-indent: 1.25em; 
+	}
+
+P.p1 {
+	font-size: 100%;
+	line-height: 110%; 
+	margin-bottom: 10pt; 
+	margin-left: 25px; 
+	margin-right: 25px; 
+	margin-top: 6pt;	
+	text-align: justify; 
+	}
+
+P.p2 {
+	font-size: 100%;
+	line-height: 110%; 
+	margin-bottom: 0px; 
+	margin-left: 1.25em; 
+	margin-right: 0px; 
+	margin-top: 6pt;	
+	text-align: justify; 
+	}
+
+/* STYLES FOR SPANS */
+
+.banner {
+	color: #993300; 
+	font-family: Verdana, Arial, Helvetica, Sans serif; 
+	font-size: 90%; 
+	font-weight: bold; 
+	font-style: italic; 
+	}
+
+.title {
+	color: #CC0000; 
+	font-size: 110%; 
+	font-style: italic; 
+	font-weight: bold; 
+	}

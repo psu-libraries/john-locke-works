@@ -1,0 +1,703 @@
+
+BODY { 
+	background-image: url(../images/paper3.gif); 
+	color: #000000; 
+	font-family: Garamond, Georgia, Times, Serif;
+	}
+
+/* STYLES FOR HYPERLINKS */
+
+A:link {
+	color: #006600; 
+	text-decoration: none;
+	}
+
+A:visited {
+	color: #669966;
+	text-decoration: none; 
+	}
+
+A:active {
+	color: #99CC99;
+	text-decoration: underline; 
+	}
+
+A:hover {
+	color: #669966;
+	text-decoration: underline; 
+	}
+
+A.bib:link {
+	color: #663300; 
+	text-decoration: none;
+	}
+
+A.bib:visited {
+	color: #996600;
+	text-decoration: none; 
+	}
+
+A.bib:active {
+	color: #993333;
+	text-decoration: underline; 
+	}
+
+A.bib:hover {
+	color: #996600;
+	text-decoration: underline; 
+	}
+
+A.chron:link {
+	color: #CC6600; 
+	text-decoration: none;
+	}
+
+A.chron:visited {
+	color: #CC6600;
+	text-decoration: none; 
+	}
+
+A.chron:active {
+	color: #CC6600;
+	text-decoration: underline; 
+	}
+
+A.chron:hover{
+	color: #CC6600;
+	text-decoration: underline; 
+	}
+
+A.nav:link {
+	color: #FFFF; 
+	font-size: 8pt;
+	text-decoration: none;
+	}
+
+A.nav:visited {
+	color: #FFFFFF;
+	font-size: 8pt;
+	text-decoration: none; 
+	}
+
+A.nav:hover {
+	background-color: transparent; 
+	color: #FFFFFF;
+	font-size: 10pt;
+	}
+
+A.nav1:link	{
+	background: #006600; 
+	color: #FFFFFF; 
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 80%; 
+	font-weight: bold; 
+	margin: 0px 1px 0px 1px; 
+	padding: 3px 10px 3px 10px; 
+	}
+
+A.nav1:visited	{
+	background: #006600; 
+	color: #FFFFFF; 
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 80%; 
+	font-weight: bold; 
+	margin: 0px 1px 0px 1px; 
+	padding: 3px 10px 3px 10px; 
+	}
+
+A.nav1:hover	{
+	background: transparent; 
+	color: #006600; 
+	text-decoration: none; 
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 80%; 
+	font-weight: bold; 
+	margin: 0px 1px 0px 1px; 
+	padding: 3px 10px 3px 10px; 
+	}
+
+/* STYLES FOR TABLE ELEMENTS */
+
+TABLE.frame { 
+	margin-bottom: 1em;
+	margin-left: auto; 
+	margin-right: auto; 
+	margin-top: 1em;
+	width: 600px;
+	table-layout: fixed; 
+	}
+
+TD.main {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	width: 595px; 
+	}
+
+TD.nav	{
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px; 
+	}
+
+/* STYLES FOR DIVISIONS */
+
+DIV.header {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 110%;
+	margin-bottom: 0px; 
+	padding-bottom: 0px; 
+	}
+
+DIV.footer {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 90%; 
+	margin-top: 18pt; 
+	}
+
+DIV.index-body {
+	margin-bottom: 0pt; 
+	margin-top: 12pt;	
+	}
+
+DIV.nav {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%; 
+	margin-top: 18pt; 
+	}
+
+/* STYLES FOR HEADINGS */
+
+H1.date {
+	font-family: Garamond, Georgia, Times, Serif;
+	font-size: 250%;
+	font-weight: normal;
+	letter-spacing: 0.05em; 
+	margin-bottom: 0px; 
+	margin-top: 10px; 
+	padding-bottom: 0px; 
+	padding-left: 0px;
+	}
+
+H1.pagetitle {
+	font-family: Garamond, Georgia, Times, Serif;
+	font-size: 150%; 
+	font-style: normal; 
+	font-weight: normal;
+	letter-spacing: 0.05em; 
+	margin-bottom: 0px; 
+	margin-top: 4pt; 
+	padding-bottom: 0px; 
+	padding-left: 0px; 
+	vertical-align: middle; 
+	}
+
+H1.pagetitle1 {
+	font-family: Garamond, Georgia, Times, Serif;
+	font-size: 150%; 
+	font-style: normal; 
+	font-weight: normal;
+	letter-spacing: 0.05em; 
+	margin-bottom: 0px; 
+	margin-top: 12pt; 
+	padding-bottom: 0px; 
+	padding-left: 0px; 
+	vertical-align: middle; 
+	}
+
+H1 IMG {
+	float: left; 
+	margin-right: 10px; 
+	}
+
+H1 P {
+	padding-top: 10px;
+	}
+
+H2 {
+	font-family: Garamond, Georgia, Times, Serif;
+	font-size: 150%;
+	font-weight: normal;
+	letter-spacing: 0.05em; 
+	margin-top: 10pt;
+	}
+
+H3	{
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 125%; 
+	font-weight: normal; 
+	letter-spacing: 0.03em; 
+	margin: 0px; 
+	}
+
+H3.ti	{
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 115%; 
+	font-weight: normal; 
+	margin: 0px; 
+	}
+
+H4 {
+	font-family: Garamond, Georgia, Times, Serif;
+	font-size: 100%; 
+	font-weight: bold; 
+	letter-spacing: 0.03em; 
+	margin-top: 6pt;
+	margin-bottom: 0pt; 
+	padding-left: 0px;  
+	}
+
+/* STYLES FOR PARAGRAPHS */
+
+P.bib-nav	{
+	background-color: #663300; 
+	color: #FFFFFF; 
+	font-family: 'Lucida Calligraphy', Garamond, Georgia, Times, Serif;
+	font-style: italic; 
+	font-weight: bold; 
+	margin: 0px 0px 0px 0px; 
+	padding: 5px 0px 5px 0px; 
+	text-align: center; 
+	width: 196px; 
+	}
+
+P.chron-nav	{
+	background-color: #CC6600; 
+	color: #FFFFFF; 
+	font-family: 'Lucida Calligraphy', Garamond, Georgia, Times, Serif;
+	font-style: italic; 
+	font-weight: bold; 
+	margin: 0px 0px 0px 0px; 
+	padding: 5px 0px 5px 0px; 
+	text-align: center; 
+	width: 196px; 
+	}
+
+P.mss-nav	{
+	background-color: #006600; 
+	color: #FFFFFF; 
+	font-family: 'Lucida Calligraphy', Garamond, Georgia, Times, Serif;
+	font-size: 150%; 
+	font-style: italic; 
+	font-weight: bold; 
+	margin: 0px 0px 0px 0px; 
+	padding: 5px 0px 5px 0px; 
+	text-align: center; 
+	width: 595px; 
+	}
+
+P.res-nav	{
+	background-color: #CC0000; 
+	color: #FFFFFF; 
+	font-family: 'Lucida Calligraphy', Garamond, Georgia, Times, Serif;
+	font-style: italic; 
+	font-weight: bold; 
+	margin: 0px 0px 0px 0px; 
+	padding: 5px 0px 5px 0px; 
+	text-align: center; 
+	width: 196px; 
+	}
+
+P.nav {
+	font-size: 75%; 
+	font-weight: bold; 
+	margin-top: 3pt; 
+	padding: 0pt; 
+	text-align: center; 
+	}
+
+P.nav1 {
+	font-size: 95%; 
+	font-style: italic; 
+	font-weight: bold; 
+	margin-bottom: 0pt; 
+	margin-top: 12pt; 
+	padding: 0pt; 
+	text-align: center; 
+	}
+
+P.nav2 {
+	font-size: 85%; 
+	font-weight: bold; 
+	margin-bottom: 0pt; 
+	margin-top: 18pt; 
+	padding: 0pt; 
+	text-align: center; 
+	}
+
+P.head {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	font-weight: bold;
+	}
+
+P.p1 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: 10pt;	
+	text-align: justify; 
+	}
+
+P.p1a {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: 3pt;	
+	text-align: justify; 
+	}
+
+P.p2 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px; 
+	text-align: justify; 
+	text-indent: 1.25em; 
+	}
+
+P.p2i1 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: 3pt;	
+	padding-left: 50px; 
+	text-align: justify; 
+	text-indent: -25px; 
+	}
+
+P.p2i2 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: -8pt;	
+	padding-left: 100px; 
+	position: relative; 
+	text-align: justify; 
+	}
+
+P.p2i3 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: -18pt;	
+	padding-left: 100px; 
+	position: relative; 
+	text-align: justify; 
+	}
+
+P.p2i4 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: -28pt;	
+	padding-left: 100px; 
+	position: relative; 
+	text-align: justify; 
+	}
+
+P.p2i5 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: -8pt;	
+	padding-left: 125px; 
+	position: relative; 
+	text-align: justify; 
+	}
+
+P.p2i5a {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: -8pt;	
+	padding-left: 150px; 
+	position: relative; 
+	text-align: justify; 
+	}
+
+P.p2i6 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: -8pt;	
+	padding-left: 225px; 
+	position: relative; 
+	text-align: justify; 
+	}
+
+P.p2i7 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: -8pt;	
+	padding-left: 50px; 
+	position: relative; 
+	text-align: justify; 
+	}
+
+P.p3 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 95%;
+	line-height: 110%; 
+	margin: 0px; 
+	padding-left: 100px; 
+	padding-top: 3px; 
+	text-align: justify; 
+	}
+
+P.p3a {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 90%;
+	line-height: 110%; 
+	margin: 0px; 
+	padding-left: 125px; 
+	text-align: justify; 
+	}
+
+P.pc1 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: -9pt;	
+	padding-left: 100px; 
+	position: relative; 
+	text-align: justify; 
+	}
+
+P.pc2 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 95%;
+	line-height: 110%; 
+	margin: 0px; 
+	padding-left: 120px; 
+	padding-top: 0px; 
+	text-align: justify; 
+	text-indent: -20px; 
+	}
+
+P.cnum {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	font-weight: normal; 
+	margin-top: -6pt; 
+	position: relative; left: 25px; top: 13pt; 
+	}
+
+P.main { 
+	font-size: 100%; 
+	line-height: 120%; 
+	margin: 0px; 
+	padding-top: 10pt; 
+	padding-left: 50px; 
+	text-align: justify; 
+	text-indent: -25px;
+	}
+
+P.cont { 
+	font-size: 100%; 
+	line-height: 120%; 
+	margin: 0px; 
+	padding-top: 0pt; 
+	padding-left: 50px; 
+	text-align: justify; 
+	text-indent: 1.25em;
+	}
+
+P.num {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	font-weight: normal; 
+	margin-top: -9pt; 
+	position: relative; left: 25px; top: 13pt; 
+	}
+
+P.num1 {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	font-weight: normal; 
+	margin-top: -12pt; 
+	position: relative; left: 0px; top: 13pt; 
+	}
+
+P.quill {
+	text-align: right; 
+	margin-top: 0px; 
+	padding: 0px; 
+	}
+
+P.name { 
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	font-weight: bold; 
+	margin: 0px; 
+	padding-bottom: 0pt; 
+	padding-top: 3pt; 
+	}
+
+P.name-ref { 
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	font-weight: normal; 
+	margin: 0px; 
+	padding-top: 3pt; 
+	}
+
+P.nti { 
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 95%;
+	font-weight: normal; 
+	margin: 0px; 
+	padding-left: 3em; 
+	padding-top: 0pt; 
+	text-indent: -1.5em; 
+	}
+
+P.ti { 
+	font-size: 100%;
+	font-weight: normal; 
+	margin: 0px; 
+	padding-bottom: 0pt; 
+	padding-left: 1.5em; 
+	padding-top: 3pt; 
+	text-indent: -1.5em;
+	}
+
+P.cname { 
+	font-size: 100%;
+	font-weight: bold; 
+	text-indent: -1em; 
+	margin: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 1em; 
+	padding-top: 3pt; 
+	}
+
+P.clett { 
+	font-size: 95%;
+	margin: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 3em; 
+	padding-top: 1pt; 
+	text-indent: -1.5em; 
+	}
+
+P.ctoc1 { 
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 95%; 
+	margin-bottom: 0pt; 
+	margin-top: 6pt; 
+	padding-left: 25px; 
+	text-indent: -25px;
+	}
+
+P.tochead {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 90%;
+	font-style: italic; 
+	font-weight: bold; 
+	margin-bottom: 0px; 
+	padding-bottom: 0px; 
+	padding-left: 75px; 	
+	}
+
+P.tocitem {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 90%; 
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+	padding-left: 100px; 
+	padding-top: 0px; 
+	}
+
+/* STYLES FOR LIST ELEMENTS */
+
+UL.square {
+	list-style-type: square; 
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+	}
+
+OL.a {
+	font-size: 100%; 
+	line-height: 120%; 
+	list-style-type: lower-alpha; 
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+	padding-left: 50px; 
+	text-align: justify; 
+	}
+
+OL.a LI {
+	line-height: 120%; 
+	padding-top: 0pt; 
+	text-align: justify; 
+	}
+
+OL.publist {
+	font-size: 100%; 
+	line-height: 120%; 
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+	padding-left: 75px; 
+	text-align: justify; 
+	}
+
+LI {
+	line-height: 110%; 
+	padding-top: 6pt; 
+	text-align: justify; 
+	}
+
+/* STYLES FOR IMAGES */
+
+/* STYLES FOR SPANS */
+
+.bi {
+	font-style: italic; 
+	font-weight: bold; 
+	}
+
+.caption {
+	font-style: italic; 
+	font-weight: bold; 
+	}
+
+.drop-cap {
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 175%; 
+	font-weight: bold; 
+	}
+
+.no {
+	font-weight: normal; 
+	}	
+
+.sm {
+	font-variant: small-caps; 
+	}
+
+.title {
+	color: #006600; 
+	font-size: 110%; 
+	font-style: italic; 
+	font-weight: bold; 
+	}
+
+.tcode {
+	background: #006600; 
+	color: #FFFFFF; 
+	font-family: Verdana, Arial, Helvetica, Sans serif; 
+	font-size: 80%; 
+	}
+
