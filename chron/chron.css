@@ -3,13 +3,15 @@
 BODY { 
 	background-image: url(../images/paper3.gif); 
 	color: #000000; 
-	font-family: Garamond, Georgia, Times, Serif;
+	font-family: Garamond, Georgia, Times, Serif; 
+ 	font-size: 110%; 
 	}
 
 BODY.home { 
 	background-image: url(../images/paper.gif); 
 	color: #000000; 
 	font-family: Garamond, Georgia, Times, Serif;
+ 	font-size: 110%; 
 	}
 
 /* STYLES FOR HYPERLINKS */
@@ -121,7 +123,7 @@ TABLE.frame {
 
 TD.main {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
+	font-size: 110%;
 	width: 595px; 
 	}
 
@@ -269,7 +271,6 @@ P.p2 {
 	}
 
 P.pflush {
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: 10pt;	
@@ -277,7 +278,6 @@ P.pflush {
 	}
 
 P.pindent {
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: 0px; 
@@ -338,13 +338,12 @@ P.psource2 {
 
 .title {
 	color: #CC6600; 
-	font-size: 110%; 
 	font-style: italic; 
 	font-weight: bold; 
 	}
 
 .uni {
 	font-family: "Arial unicode ms"; 
-	font-size: 90%; 
+	font-size: 100%; 
 	font-weight: normal;
 	}
