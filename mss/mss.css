@@ -2,7 +2,8 @@
 BODY { 
 	background-image: url(../images/paper3.gif); 
 	color: #000000; 
-	font-family: Garamond, Georgia, Times, Serif;
+	font-family: Garamond, Georgia, Times, Serif; 
+ 	font-size: 110%; 
 	}
 
 /* STYLES FOR HYPERLINKS */
@@ -128,8 +129,6 @@ TABLE.frame {
 	}
 
 TD.main {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	width: 595px; 
 	}
 
@@ -237,7 +236,7 @@ H3.ti	{
 
 H4 {
 	font-family: Garamond, Georgia, Times, Serif;
-	font-size: 100%; 
+	font-size: 110%; 
 	font-weight: bold; 
 	letter-spacing: 0.03em; 
 	margin-top: 6pt;
@@ -325,13 +324,11 @@ P.nav2 {
 
 P.head {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
+	font-size: 110%;
 	font-weight: bold;
 	}
 
 P.p1 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: 10pt;	
@@ -339,8 +336,6 @@ P.p1 {
 	}
 
 P.p1a {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: 3pt;	
@@ -348,8 +343,6 @@ P.p1a {
 	}
 
 P.p2 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin: 0px 0px 0px 0px; 
 	padding: 0px 0px 0px 0px; 
@@ -358,8 +351,6 @@ P.p2 {
 	}
 
 P.p2i1 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: 3pt;	
@@ -369,8 +360,6 @@ P.p2i1 {
 	}
 
 P.p2i2 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: -8pt;	
@@ -380,8 +369,6 @@ P.p2i2 {
 	}
 
 P.p2i3 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: -18pt;	
@@ -391,8 +378,6 @@ P.p2i3 {
 	}
 
 P.p2i4 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: -28pt;	
@@ -402,8 +387,6 @@ P.p2i4 {
 	}
 
 P.p2i5 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: -8pt;	
@@ -413,8 +396,6 @@ P.p2i5 {
 	}
 
 P.p2i5a {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: -8pt;	
@@ -424,8 +405,6 @@ P.p2i5a {
 	}
 
 P.p2i6 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: -8pt;	
@@ -435,8 +414,6 @@ P.p2i6 {
 	}
 
 P.p2i7 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: -8pt;	
@@ -447,7 +424,7 @@ P.p2i7 {
 
 P.p3 {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 95%;
+	font-size: 100%;
 	line-height: 110%; 
 	margin: 0px; 
 	padding-left: 100px; 
@@ -457,7 +434,7 @@ P.p3 {
 
 P.p3a {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 90%;
+	font-size: 95%;
 	line-height: 110%; 
 	margin: 0px; 
 	padding-left: 125px; 
@@ -465,8 +442,6 @@ P.p3a {
 	}
 
 P.pc1 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: -9pt;	
@@ -477,7 +452,7 @@ P.pc1 {
 
 P.pc2 {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 95%;
+	font-size: 100%;
 	line-height: 110%; 
 	margin: 0px; 
 	padding-left: 120px; 
@@ -487,15 +462,12 @@ P.pc2 {
 	}
 
 P.cnum {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	font-weight: normal; 
 	margin-top: -6pt; 
 	position: relative; left: 25px; top: 13pt; 
 	}
 
 P.main { 
-	font-size: 100%; 
 	line-height: 120%; 
 	margin: 0px; 
 	padding-top: 10pt; 
@@ -505,7 +477,6 @@ P.main {
 	}
 
 P.cont { 
-	font-size: 100%; 
 	line-height: 120%; 
 	margin: 0px; 
 	padding-top: 0pt; 
@@ -515,16 +486,12 @@ P.cont {
 	}
 
 P.num {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	font-weight: normal; 
 	margin-top: -9pt; 
 	position: relative; left: 25px; top: 13pt; 
 	}
 
 P.num1 {
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	font-weight: normal; 
 	margin-top: -12pt; 
 	position: relative; left: 0px; top: 13pt; 
@@ -546,8 +513,6 @@ P.name {
 	}
 
 P.name-ref { 
-	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 100%;
 	font-weight: normal; 
 	margin: 0px; 
 	padding-top: 3pt; 
@@ -555,7 +520,7 @@ P.name-ref {
 
 P.nti { 
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 95%;
+	font-size: 100%;
 	font-weight: normal; 
 	margin: 0px; 
 	padding-left: 3em; 
@@ -564,7 +529,6 @@ P.nti {
 	}
 
 P.ti { 
-	font-size: 100%;
 	font-weight: normal; 
 	margin: 0px; 
 	padding-bottom: 0pt; 
@@ -574,7 +538,6 @@ P.ti {
 	}
 
 P.cname { 
-	font-size: 100%;
 	font-weight: bold; 
 	text-indent: -1em; 
 	margin: 0px; 
@@ -584,7 +547,7 @@ P.cname {
 	}
 
 P.clett { 
-	font-size: 95%;
+	font-size: 100;
 	margin: 0px; 
 	padding-bottom: 0px; 
 	padding-left: 3em; 
@@ -594,7 +557,7 @@ P.clett {
 
 P.ctoc1 { 
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 95%; 
+	font-size: 100%; 
 	margin-bottom: 0pt; 
 	margin-top: 6pt; 
 	padding-left: 25px; 
@@ -603,7 +566,7 @@ P.ctoc1 {
 
 P.tochead {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 90%;
+	font-size: 95%;
 	font-style: italic; 
 	font-weight: bold; 
 	margin-bottom: 0px; 
@@ -613,7 +576,7 @@ P.tochead {
 
 P.tocitem {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 90%; 
+	font-size: 95%; 
 	margin-bottom: 0px; 
 	margin-top: 0px; 
 	padding-left: 100px; 
@@ -629,7 +592,6 @@ UL.square {
 	}
 
 OL.a {
-	font-size: 100%; 
 	line-height: 120%; 
 	list-style-type: lower-alpha; 
 	margin-bottom: 0px; 
@@ -645,7 +607,6 @@ OL.a LI {
 	}
 
 OL.publist {
-	font-size: 100%; 
 	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-top: 0px; 
@@ -689,7 +650,7 @@ LI {
 
 .title {
 	color: #006600; 
-	font-size: 110%; 
+	font-size: 115%; 
 	font-style: italic; 
 	font-weight: bold; 
 	}
