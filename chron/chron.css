@@ -127,6 +127,52 @@ TD.main {
 	width: 595px; 
 	}
 
+TABLE.cal-active	{
+	border-color: #FF6600; 
+  border-style: solid; 
+	border-width: 2px; 
+	font-family: Verdana, Arial, Sans-serif; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	padding: 3px 3px 3px 3px; 
+	text-align: right; 
+	}
+
+TABLE.cal-inactive	{
+	border-color: #996633; 
+  border-style: solid; 
+	border-width: 2px; 
+	font-family: Verdana, Arial, Sans-serif; 
+	font-size: 8pt; 
+	font-weight: bold; 
+	padding: 3px 3px 3px 3px; 
+	text-align: right; 
+	}
+
+TD.date	{
+	padding: 2px 6px 2px 6px; 
+	}
+
+TD.date-head {
+	padding: 0px 15px 0px 15px; 
+	vertical-align: middle; 
+	width: 50%; 
+	}
+
+TH.active	{
+	color: #FF6600; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	text-align: center; 
+	}
+
+TH.inactive	{
+	color: #996633; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	text-align: center; 
+	}
+
 /* STYLES FOR DIVISIONS */
 
 DIV.header {
@@ -149,7 +195,7 @@ TD.nav	{
 
 DIV.toc {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 90%;
+	font-size: 100%;
 	font-weight: bold; 
 	line-height: 14pt; 
 	margin-bottom: 0px; 
@@ -252,9 +298,9 @@ P.dt-rt {
 	text-align: right; 
 	}
 
-P.head {
+P.header {
 	font-family: Garamond, Georgia, Times, Serif; 
-	font-size: 120%;
+	font-size: 110%;
 	font-weight: bold;
 	}
 
@@ -297,6 +343,13 @@ P.psource2 {
 	margin-top: 6pt;
 	text-align: justify; 
 	}
+
+P.top	{
+	color: #FFFFFF; 
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 80%; 
+ 	text-align: right; 
+  }
 
 /* STYLES FOR SPANS */
 

@@ -28,6 +28,7 @@ H3.day2 {
 	padding: 0px 0px 0px 0px; 
 	text-align: right; 
 	}
+
 TABLE.cal-active	{
 	border-color: #FF6600; 
    border-style: solid; 
@@ -38,6 +39,7 @@ TABLE.cal-active	{
 	padding: 3px 3px 3px 3px; 
 	text-align: right; 
 	}
+
 TABLE.cal-inactive	{
 	border-color: #996633; 
    border-style: solid; 
@@ -48,37 +50,51 @@ TABLE.cal-inactive	{
 	padding: 3px 3px 3px 3px; 
 	text-align: right; 
 	}
+
 TD.date	{
-	padding: 0px 2px 0px 2px; 
+	padding: 2px 6px 2px 6px; 
 	}
+
 TD.date-head {
 	padding: 0px 15px 0px 15px; 
 	vertical-align: middle; 
 	width: 50%; 
 	}
-TH	{
-	color: #CC6600; 
-	font-size: 10pt; 
+
+TH.active	{
+	color: #FF6600; 
+	font-size: 9pt; 
+	font-weight: bold; 
+	text-align: center; 
+	}
+
+TH.inactive	{
+	color: #996633; 
+	font-size: 9pt; 
 	font-weight: bold; 
 	text-align: center; 
 	}
 </style>
 </head>
 
+
 <body>
 
-<center>
+
 <table class="frame" border=0>
 <tr><td class="main">
 
-<a name="top"></a>
+<!--<a name="top"></a>-->
 
 
+<!--          HEADER                                    -->
 <table border=0>
-<tr><td class="nav"><a class="nav" href="../index.html"><div class="bib-nav">John Locke Bibliography</div></a></td>
-<td class="nav"><a class="nav" href="../mss/index.html"><div class="mss-nav">John Locke Manuscripts</div></a></td></tr>
-<tr><td class="nav" colspan=2><div class="chron-nav">John Locke Chronology</div></td></tr>
+<tr><td class="nav"><a class="nav" href="../bib/index.html"><p class="bib-nav">John Locke Bibliography</p></a></td>
+<td class="nav"><a class="nav" href="../mss/index.html"><p class="mss-nav">John Locke Manuscripts</p></a></td>
+<td class="nav"><a class="nav" href="../index.html"><p class="res-nav">John Locke Resources</p></a></td></tr>
+<tr><td class="nav" colspan=3><p class="chron-nav">John Locke Chronology</p></td></tr>
 </table>
+
 
 
 <!--<img src="../images/jlchron.gif" width="259" height="50" alt="John Locke Chronology"> 
@@ -89,40 +105,42 @@ TH	{
 
 
 <p class="header">
-[ <a href="index.html#toc"><b>Table of Contents</b></a> ] &#151; 
-[ <a href="1675.html">1675</a> ]</p>
+[ <a href="index.html#toc"><b>Table of Contents</b></a> ]<!-- &#151; 
+[ <a href="1675.html"><b>1676</b></a> ]--></p>
 
 
-<h1 class="date"><img src="../images/paraph4.gif" align=bottom border="0">
- 1675 
-<img src="../images/paraph4.gif" align=bottom border="0"></h1>
-
-<h2>Week of 1&#0151;7 December 1675</h2>
-
-<!--
-<div class="toc">
-<a href="#jan">January</a> | 
-<a href="#feb">February</a> | 
-<a href="#mar">March</a> | 
-<a href="#apr">April</a> | 
-<a href="#may">May</a> | 
-<a href="#jun">June</a><br />
-<a href="#jul">July</a> | 
-<a href="#aug">August</a> | 
-<a href="#sept">September</a> | 
-<a href="#oct">October</a> | 
-<a href="#nov">November</a> | 
-<a href="#dec">December</a>
+<!--          TITLE                                     -->
+<div id="title">
+<h1 class="date"><img src="../images/paraph4.gif" align=bottom border="0" />
+January 1676
+<img src="../images/paraph4.gif" align=bottom border="0"></h1 />
 </div>
--->
+
+
+<div class="toc">
+<a href="c167601.html">January</a> | 
+<a href="c167602.html">February</a> | 
+<a href="c167603.html">March</a> | 
+<a href="c167604.html">April</a> | 
+<a href="c167605.html">May</a> | 
+<a href="c167606.html">June</a><br />
+<a href="c167607.html">July</a> | 
+<a href="c167608.html">August</a> | 
+<a href="c167609.html">September</a> | 
+<a href="c167610.html">October</a> | 
+<a href="c167611.html">November</a> | 
+<a href="c167612.html">December</a>
+</div>
+
 
 <br />
 
+<!--          CALENDAR                                     -->
 <table border=0>
 <tr><td>
 
 <table class="cal-active">
-<tr><th colspan=7>December &nbsp; N.S.</th></tr>
+<tr><th class="active" colspan=7>January &nbsp; N.S.</th></tr>
 <tr>
 <td class="date">1</td>
 <td class="date">2</td>
@@ -164,18 +182,15 @@ TH	{
 <td class="date"></td>
 <td class="date"></td></tr>
 </table>
-
 </td>
 
 <td class="date-head">
-<h3 class="dow">Sunday</h3>
-<h3 class="day1">1 December 1675 <span class="sm">n.s.</span></h3>
-<h3 class="day2">21 November 1675 <span class="sm">o.s.</span></h3></td>
+<h3 class="dow">&nbsp;</h3>
+</td>
 
 <td>
-
 <table class="cal-inactive">
-<tr><th colspan=7>November &nbsp; O.S.</th></tr>
+<tr><th class="inactive" colspan=7>December/January &nbsp; O.S.</th></tr>
 <tr>
 <td class="date">1</td>
 <td class="date">2</td>
@@ -221,222 +236,52 @@ TH	{
 </td></tr></table>
 
 
-
-
-<h2><a name="nov">November</a></h2>
-
-<a name="1112"><p class="dt-lt">Friday, 12 Nov. 1675, o.s.</p></a>
-<p class="dt-rt">22 Nov. 1675, n.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;In the evening I went to <span class="place">Gravesend</span>.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 1]</span>
-</p>
-
-<a name="1114"><p class="dt-lt">Sunday, 14 Nov. 1675, o.s.</p></a>
-<p class="dt-rt"><b>24 Nov. 1675, n.s.</b></p>
-
-<p class="p1">
-<span class="loc">&#0147;Took water at <span class="place">Dover</span> 
-and that day arrived at <span class="place">Calais</span>.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 1]</span>
-</p>
-
-<a name="1129"><p class="dt-lt">Friday, 29 Nov. 1675, n.s.</p></a>
-<p class="dt-rt">19 Nov. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;Went to <span class="place">Boulogne</span>, 7 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 1]</span>
-</p>
-
-<a name="1130"><p class="dt-lt">Saturday, 30 Nov. 1675, n.s.</p></a>
-<p class="dt-rt">20 Nov. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;To <span class="place">Montreuil</span>, 7 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 1]</span>
-</p>
-
-
-<h2><a name="dec">December</a></h2>
-
-<a name="1201"><p class="dt-lt">Sunday, 1 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">21 Nov. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;To <span class="place">Abbeville</span>, 10 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 1]</span>
-</p>
-
-<a name="1202"><p class="dt-lt">Monday, 2 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">22 Nov. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;To <span class="place">Poix</span>, 9 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 1]</span>
-</p>
-
-<a name="1203"><p class="dt-lt">Tuesday, 3 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">23 Nov. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;To <span class="place">Beauvais</span>, 9 leagues, 
-and thence to <span class="place">Tillart</span>, 3 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 1]</span>
-</p>
-
-<a name="1204"><p class="dt-lt">Wednesday, 4 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">24 Nov. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;To <span class="place">Beaumont</span>, 5 leagues, 
-thence to <span class="place">Paris</span>, 8 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 1]</span>
-</p>
-
-<a name="1214"><p class="dt-lt">Saturday, 14 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">4 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;We took coach at <span class="place">Paris</span> 
-in the diligence for Lyons and, after having dined at <span class="place">Melun</span>, 
-got by an hour or 2 in the night to <span class="place">Moret</span> where we lodged. 
-It is 16 leagues from Paris.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 2]</span>
-</p>
-
-<a name="1215"><p class="dt-lt">Sunday, 15 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">5 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;Dind at <span class="place">Pont sur Yonne</span> 
-& reached <span class="place">Joyny</span> [Joigny], 17 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 2]</span>
-</p>
-
-<a name="1216"><p class="dt-lt">Monday, 16 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">6 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;We dined at <span class="place">Auxerre</span> &#0133; 
-We lay at <span class="place">Lacie le Bois</span> [Lucy-le-Bois], 15 leagues &#0133;&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 2]</span>
-</p>
-
-<a name="1217"><p class="dt-lt">Tuesday, 17 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">7 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;We lay at <span class="place">Arnan le Duc</span> [Arnay-le-Duc], 15 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 3]</span>
-</p>
-
-<a name="1218"><p class="dt-lt">Wednesday, 18 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">8 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;We dind at a litle town cald <span class="place">Chany</span> [Chagny], 8 Leagues &#0133; 
-Lay at <span class="place">Challon</span> [Ch&acirc;lons-sur-Sa&ocirc;ne], 3 leagues &#0133;&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 3]</span>
-</p>
-
-<a name="1219"><p class="dt-lt">Thursday, 19 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">9 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;We took boat at <span class="place">Challon on the Saone</span> &#0133; 
-We passed by <span class="place">Tornus</span> [Tournus] &#0133; 
-5 Leagues from Tornus we came to <span class="place">Mascon</span> where we lay.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, pp. 4-5]</span>
-</p>
-
-<a name="1220"><p class="dt-lt">Friday, 20 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">10 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;We enterd our boat again and at 5 leagues&#0146;s distance came to a pretty towne calld 
-<span class="place">Bel-Ville</span> &#0133; 
-A league from Belville we came to <span class="place">Ville Franche</span> &#0133; 
-Two Leagues farther we came to <span class="place">Trevou</span> [Tr&ecirc;voux] &#0133; 
-From thence to <span class="place">Lyons</span>, 3 leagues &#0133;&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, pp. 5-6]</span>
-</p>
-
-<a name="1226"><p class="dt-lt">Thursday, 26 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">16 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;[W]e took horse & rode to <span class="place">Vienne</span>, 5 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 17]</span>
-</p>
-
-<a name="1227"><p class="dt-lt">Friday, 27 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">17 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;We went 7 leagues to <span class="place">St. Valer</span> [Saint-Vallier] &#0133;&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 18]</span>
-</p>
-
-<a name="1228"><p class="dt-lt">Saturday, 28 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">18 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;To <span class="place">Valence</span>, 7 leagues &#0133;&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 18]</span>
-</p>
-
-<a name="1229"><p class="dt-lt">Sunday, 29 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">19 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;To <span class="place">Montelimar</span>, 8 leagues.&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 19]</span>
-</p>
-
-<a name="1230"><p class="dt-lt">Monday, 30 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">20 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;From Montelimar to <span class="place">Pon[t] St. Esprit</span>, 5 leagues 
-[via <span class="place">Chasteauneuf</span> and <span class="place">Pallu</span> [Lapalud]]. 
-3 leagues from Pont St. Esprit we came to <span class="place">Orange</span> &#0133;&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 19-22]</span>
-</p>
-
-<a name="1231"><p class="dt-lt">Tuesday, 31 Dec. 1675, n.s.</p></a>
-<p class="dt-rt">21 Dec. 1675, o.s.</p>
-
-<p class="p1">
-<span class="loc">&#0147;We came to <span class="place">Avignon</span>, 4 leagues from Orange &#0133;&#0148;</span> &#0151; 
-<span class="ms">[Journal: MS. Locke f. 1, p. 24]</span>
-</p>
-
+<!--          PAGE CONTENT                                     -->
 
 
 
 <br />
-<br />
 
 
-
+<!--          FOOTER                                    -->
+<div class="footer">
 <table align=center border=0>
 <tr>
-<td class="nav"><a class="nav1" href="c1674.html">Previous Page</a></td>
-<td class="nav"><a class="nav1" href="c1676.html">Next Page</a></td>
+<td class="nav"><a class="nav1" href="c1675.html">Previous Page</a></td>
+<td class="nav"><a class="nav1" href="c1677.html">Next Page</a></td>
 <td class="nav"><a class="nav1" href="index.html#toc">Contents</a></td>
 <td class="nav"><a class="nav1" href="names.html">Name Index</a></td>
 <td class="nav"><a class="nav1" href="titles.html">Title Index</a></td>
 </tr></table>
 
+
 <table border=0>
-<tr><td class="nav" colspan=2 height=2px></td></tr>
-<tr><td class="nav" colspan=2><div class="chron-nav">John Locke Chronology</div></td></tr>
-<tr><td class="nav"><a class="nav" href="../index.html"><div class="bib-nav">John Locke Bibliography</div></a></td>
-<td class="nav"><a class="nav" href="../mss/index.html"><div class="mss-nav">John Locke Manuscripts</div></a></td></tr>
+<tr><td class="nav" colspan=3 height=2px></td></tr>
+<tr><td class="nav" colspan=3><p class="chron-nav">John Locke Chronology</p></td></tr>
+<tr><td class="nav"><a class="nav" href="../bib/index.html"><p class="bib-nav">John Locke Bibliography</p></a></td>
+<td class="nav"><a class="nav" href="../mss/index.html"><p class="mss-nav">John Locke Manuscripts</p></a></td>
+<td class="nav"><a class="nav" href="../index.html"><p class="res-nav">John Locke Resources</p></a></td></tr>
 </table>
 
+<br />
+
+<script language="javascript">
+<!--hide from non-JavaScript browsers
+	cDate = new Date();
+	document.write("<b>Last updated: </b>" + document.lastModified + " &mdash; jca<br />");
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		document.write("<i>Copyright &#169; " + (cDate.getYear()) + " John C. Attig</i><br />");
+	}
+	if (navigator.appName.indexOf("Netscape") != -1) {
+		document.write("<i>Copyright &#169; " + (cDate.getYear() + 1900) + " John C. Attig</i><br />");
+	}
+//end hiding-->
+</script>
+
+<br />
+
+<a href="../index.html#jca">
+<img align=middle border=0 src="../images/sign.jpg"  alt="JCA" width=45 height=30 /></a>
 
 
 </td>
