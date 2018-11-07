@@ -188,8 +188,8 @@ P.pindent {
 	}
 
 P.p1 {
-	font-size: 100%;
-	line-height: 110%; 
+	font-size: 110%;
+	line-height: 120%; 
 	margin-bottom: 10pt; 
 	margin-left: 25px; 
 	margin-right: 25px; 
@@ -198,8 +198,8 @@ P.p1 {
 	}
 
 P.p2 {
-	font-size: 100%;
-	line-height: 110%; 
+	font-size: 110%;
+	line-height: 120%; 
 	margin-bottom: 0px; 
 	margin-left: 1.25em; 
 	margin-right: 0px; 
