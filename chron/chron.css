@@ -188,6 +188,11 @@ DIV.footer {
 	margin-top: 18pt; 
 	}
 
+DIV.index-body {
+	margin-bottom: 0pt; 
+	margin-top: 12pt;	
+	}
+
 TD.nav	{
 	margin: 0px 0px 0px 0px; 
 	padding: 0px 0px 0px 0px; 
@@ -215,6 +220,17 @@ H1.date {
 	padding-bottom: 0px; 
 	padding-left: 0px;
 	text-align: center; 
+	}
+
+H1.ptitle {
+	font-family: Garamond, Georgia, Times, Serif;
+	font-size: 300%;
+	font-weight: normal;
+	margin-bottom: 0px; 
+	margin-top: 10px; 
+	padding-bottom: 0px; 
+	padding-left: 0px;
+	text-align: left; 
 	}
 
 H2.month {
@@ -304,6 +320,34 @@ P.header {
 	font-weight: bold;
 	}
 
+P.name { 
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	font-weight: bold; 
+	margin: 0px; 
+	padding-bottom: 0pt; 
+	padding-top: 3pt; 
+	}
+
+P.nti { 
+	font-family: Garamond, Georgia, Times, Serif; 
+	font-size: 100%;
+	font-weight: normal; 
+	margin: 0px; 
+	padding-left: 3em; 
+	padding-top: 0pt; 
+	text-indent: -1.5em; 
+	}
+
+P.nav2 {
+	font-size: 85%; 
+	font-weight: bold; 
+	margin-bottom: 0pt; 
+	margin-top: 18pt; 
+	padding: 0pt; 
+	text-align: center; 
+	}
+
 P.p1 {
 	margin: 0pt; 
 	padding-left: 25px; 
@@ -350,6 +394,20 @@ P.top	{
 	font-size: 80%; 
  	text-align: right; 
   }
+
+/* STYLES FOR LIST ELEMENTS */
+
+UL {
+	margin-bottom: 0px; 
+	margin-top: 0px; 
+	}
+
+LI {
+	line-height: 110%; 
+ 	margin-left: 10px; 
+	padding-top: 3pt; 
+	text-align: justify; 
+	}
 
 /* STYLES FOR SPANS */
 
