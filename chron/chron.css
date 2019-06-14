@@ -437,6 +437,11 @@ LI {
 	font-size: 85%; 
 	}
 
+.no {
+	font-style: normal; 
+	font-weight: normal; 
+	}
+
 .place {
 	color: #993300; 
 	font-style: italic; 
